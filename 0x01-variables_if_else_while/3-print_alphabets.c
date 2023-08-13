@@ -1,20 +1,23 @@
+#include <stdio.h>
+
+/**
+ * main - entry point
+ * Descrition pritnt abcdefghijklmnopqrstuvwxyz
+ * Return: 0 always
+ */
+
 int main(void)
 {
-    char lowercase;
-    char uppercase;
+	char letter;
 
-    for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
-    {
-        putchar(lowercase);
-    }
-
-    for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
-    {
-        putchar(uppercase);
-    }
-
-    putchar('\n');
-
-    return (0);
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		putchar(letter);
+	}
+	for (letter = 'A'; letter <= 'Z'; letter++)
+	{
+		putchar(letter);
+	}
+	putchar('\n');
+	return (0);
 }
-
