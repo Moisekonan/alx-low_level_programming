@@ -1,15 +1,8 @@
 #include "main.h"
-
 /**
- * main - Enter point
- * Description:
- * The main function serves as the entry point for the program. It is where the
- * program execution begins. It may also contain command-line arguments and
- * their count (argc and argv), though they are not used in this specific case.
- *
- * Return : Always 0.
+ * main - print putchar
+ * Return: 0
  */
-
 int main(void)
 {
 	_putchar('_');
