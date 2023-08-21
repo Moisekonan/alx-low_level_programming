@@ -1,18 +1,19 @@
 #include "main.h"
-#include <stddef.h> // Pour inclure la définition de NULL
-
 /**
- * _strlen - calcule la longueur d'une chaîne de caractères
- * @s: pointeur vers la chaîne de caractères
- * Return: la longueur de la chaîne
+ * _strlen - return a len of strings
+ * @s: an iterable string
+ * Return: length of a strings
  */
 int _strlen(char *s)
 {
-	int length = 0;
+	int i = 0;
 
-	while (s != NULL && s[length] != '\0')
-		length++;
-
-	return (length);
+	while (*s != '\0')
+	{
+		i++;
+		s++;
+	}
+	return (i);
 }
+
 
